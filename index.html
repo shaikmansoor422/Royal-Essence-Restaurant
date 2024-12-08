@@ -12,14 +12,16 @@
     <nav class="navbar">
         <div class="leftnav">Royal Essence</div>
         <div class="rightnav">
-            <div>Home</div>
-            <div>About</div>
-            <div>Menu</div>
-            <div>Reservation</div>
-            <div>Contacts</div>
+            <div ><a href="#home">Home</a></div>
+            <div><a href="#about-us">About Us</a></div>
+            <div><a href="#menu">Menu</a></div>
+            <div><a href="#reservation">Reservation</a></div>
+            <div><a href="#contacts">Contacts</a></div>
+            <div id="home-svg"><a href="#home"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z" fill="#f5f5f5"></path> </g></svg></a></div>
         </div>
+        <div id="home-svg"><a href="#home"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z" fill="#f5f5f5"></path> </g></svg></a></div>
     </nav>
-    <div class="backgroundimg">
+    <div class="backgroundimg" id="home">
         <div class="lemon"><img src="./Screenshot_2024-12-07_002506-removebg-preview.png" alt=""></div>
         <div class="premium">Premium</div>
         <div class="quality">QUALITY</div>
@@ -58,7 +60,7 @@
     <div class="welcome">
         <div class="wel-left"><img src="./welcome-left-img.jpg" alt=""></div>
         <div class="wel-right">
-            <p class="wel-heading"><i>Welcome to Nisaa's Haven</i></p>
+            <p class="wel-heading"><i>Welcome to Royal Essence</i></p>
             <p class="wel-content"><i>&emsp;"Welcome to our cozy corner of delicious delights! Discover a menu crafted
                     with love, where every dish tells a story of freshness and flavor."</i> </p>
             <p class="wel-au">ABOUT US</p>
@@ -75,7 +77,7 @@
         </div>
         <div class="chef-right"><img src="./blueberryshake.jpg" alt=""></div>
     </div>
-    <div class="team">
+    <div class="team" id="about-us">
         <p class="p1">Our Team</p>
         <p class="p2">is the best</p>
         <div class="team-mates">
@@ -107,7 +109,7 @@
         </div>
     </div>
     <div class="bg-img-two">
-        <div class="cuisine">
+        <div class="cuisine" id="menu">
             <div class="cuisine-img"><img src="./cuisine-fish.png" alt=""></div>
             <p class="p1">Enjoy The Best Cuisine</p>
             <p class="p2">on this planet</p>
@@ -167,7 +169,7 @@
                         juicy chicken or mutton, cooked to perfection. Served with a tangy tomato-based chutney.</p>
                 </div>
             </div>
-            <form action=""><input type="button" value="VIEW FULL MENU"> </form>
+            <form action="#home"><input type="button" value="VIEW FULL MENU"> </form>
         </div>
     </div>
     <div class="bg-img-three"></div>
@@ -187,7 +189,7 @@
                 <div id="cust-img"><img src="./ganesh.jpg" alt=""></div>
                 <p class="cust-name">Ganesh</p>
                 <div class="cust-rev">"The food was a masterpiece of flavors, each bite bursting with authenticity and
-                    charm. From exquisite presentation to heavenly taste, it was an unforgettable culinary journey!"
+                    charm.it was an unforgettable culinary journey!"
                 </div>
                 <p class="p3">98/100</p>
             </div>
@@ -195,7 +197,7 @@
     </div>
 
         <div class="bg-img-four">
-            <div class="order">
+            <div class="order" id="reservation">
                 <p class="p1">Select a Date & Book Now</p>
                 <p class="p2">We will confirm order via E-mail or Phone</p>
                 <div class="booking-form">
@@ -225,12 +227,12 @@
                             <option value="">6</option>
                             <option value="">10</option>
                         </select><br>
-                        <input class="send" type="button" value="BOOK - NOW">
+                        <input id="booknow" class="send" type="button" value="BOOK - NOW">
                     </form>
                 </div>
             </div>
         </div>
-        <div class="contact-map">
+        <div class="contact-map" id="contacts">
             <div class="contact ">
                 <div class="details">
                     <div class="cnt-heading">How to Find & Contact Us</div>

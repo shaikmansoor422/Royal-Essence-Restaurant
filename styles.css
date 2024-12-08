@@ -8,7 +8,12 @@
     .leftnav{
         font-size: 40px !important;
     }
-   
+    
+}
+@media (min-width:951px) and (max-width:2560px){
+    #home-svg{
+        display: none !important;
+    }
     
 }
 @media screen and (min-width:280px) and (max-width:770px){
@@ -93,12 +98,23 @@
         margin: 50px auto !important;
     }
 }
+@media (min-width:426px) and (max-width:770px){
+    .map{
+        width: 380px !important;
+        height: 380px !important;
+        margin: 50px auto !important;
+    } 
+}
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 img {
@@ -146,6 +162,11 @@ img {
     font-weight: bold;
     padding-top: 20px;
     z-index: 10;
+}
+
+#home-svg{
+    margin-top: 15px;
+    scroll-behavior: smooth;
 }
 
 svg {
@@ -343,7 +364,11 @@ svg {
     min-width: 280px;
     max-width: 48%;
     flex: 1 1 auto;
-    
+    background-size: cover; 
+}
+.wel-left img, .chef-right img{
+    width: 100%;
+    height: 100%S;
 }
 .wel-left{
     animation-name:movelefttoright ;
@@ -873,4 +898,24 @@ iframe{
 100%{
     transform: translateY(0);
 }
+}
+:target{
+    scroll-margin-top: 80px;
+
+}
+.rightnav a{
+    text-decoration: none;
+    color: white;
+    
+}
+.rightnav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.cuisine input:hover{
+    background-color: grey;
+}
+#booknow:hover{
+    background-color: grey;
 }
