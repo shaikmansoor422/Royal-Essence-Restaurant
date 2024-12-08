@@ -157,10 +157,11 @@ img {
     flex-wrap: wrap;
     color: white;
     display: flex;
+    align-items: center;
     gap: 25px;
     font-size: 18px;
     font-weight: bold;
-    padding-top: 20px;
+    padding: 20px;
     z-index: 10;
 }
 
