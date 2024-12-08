@@ -1,0 +1,876 @@
+@media (min-width:300px) and (max-width:950px) {
+    .rightnav, .rightnav div {
+        display: none !important;
+    }
+    .restaurant, .dishes{
+        font-size: 40px !important;
+    }
+    .leftnav{
+        font-size: 40px !important;
+    }
+   
+    
+}
+@media screen and (min-width:280px) and (max-width:770px){
+    .footer{
+        height: 200px !important;
+        width: 100% !important;
+        display: block !important;
+       
+    }
+    .res-name{
+        font-size:50px !important;
+        padding: 0px !important;
+        font-family: 'Brush Script MT', cursive;
+        box-sizing: border-box !important;
+        margin: 0px !important;
+    }
+    .res-name, .me, .foot-right{
+        height: auto !important;
+        padding-bottom: 20px;
+        min-width: 100% !important;
+        text-align: center !important;
+        margin: auto;
+    }
+    .foot-right{
+        padding-bottom: 10px;
+        display: flex !important;
+        justify-content: center !important;
+        box-sizing: border-box !important;
+
+    }
+    
+}
+
+@media (min-width:320px) and (max-width:350px){
+    .premium{
+        font-size: 30px !important;
+    }
+    .lemon{
+        height: 25px !important;
+        width: 35px !important;
+        position: relative !important;
+        left: 49% !important;
+        top: 200px !important;
+    }
+    .map{
+        width: 280px !important;
+        height: 280px !important;
+        margin: 50px auto !important;
+    }
+}
+@media (min-width:351px) and (max-width:390px){
+    .premium{
+        font-size: 30px !important;
+    }
+    .lemon{
+        height: 25px !important;
+        width: 35px !important;
+        position: relative !important;
+        left: 49% !important;
+        top: 200px !important;
+    }
+    .map{
+        width: 320px !important;
+        height: 320px !important;
+        margin: 50px auto !important;
+    }
+}
+@media (min-width:391px) and (max-width:425px){
+    .premium{
+        font-size: 30px !important;
+    }
+    .lemon{
+        height: 25px !important;
+        width: 35px !important;
+        position: relative !important;
+        left: 50% !important;
+        top: 200px !important;
+    }
+    .map{
+        width: 340px !important;
+        height: 340px !important;
+        margin: 50px auto !important;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 0%;
+    margin-top: 0px;
+    box-sizing: border-box;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar.scrolled{
+    background-color: white;
+}
+
+.leftnav {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    font-size: 50px;
+    z-index: 10;
+    font-family: 'Brush Script MT', cursive;
+    
+}
+
+.rightnav {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    z-index: 10;
+}
+
+svg {
+    height: 20px;
+}
+
+.backgroundimg {
+    border: 2px solid;
+    height: 800px;
+    width: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+    margin-top: -80px;
+    background-image: url(./main-background-img.jpg) ;
+    background-size:cover ;
+}
+.lemon{
+    height: 50px;
+    width: 60px;
+    position: relative;
+    left: 49.69%;
+    top: 210px;
+    animation: bounce 2s ease-in;
+    
+}
+.premium{
+    color: yellow;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    top: 182px;
+    font-family: 'Brush Script MT', cursive;
+    animation: visible 2s ease-in;
+}
+
+.quality{
+    color: rgb(252, 252, 251);
+    font-size: 10px;
+    position: relative;
+    text-align: center;
+    top: 182px;
+    letter-spacing: 4px;
+    animation: visible 2s ease-in;
+}
+.restaurant{
+    color: #fdfdfd;
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+    top: 182px;
+    font-family: "Lucida Handwriting";
+    animation: movelefttoright 2s ease-out ;
+    
+}
+.dishes{
+    color: #f9f9f9;
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+    top: 182px;
+    font-family: "Lucida Handwriting";
+    animation: moverighttoleft 2s ease-out;
+}
+
+.offer1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin: 100px auto 5px;
+}
+
+.offer2 {
+    margin: 0px auto;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+    text-align: center;
+}
+
+
+
+.watermark-img {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.always-fresh,
+.eco-products,
+.healthy-deserts {
+    height: 490px;
+    min-width: 250px;
+    max-width: 380px;
+    flex: 1 1 auto;
+    margin: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
+.always-fresh{
+    animation-name:movelefttoright ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.eco-products{
+    animation-name:bottomtoup ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+.healthy-deserts{
+    animation-name:moverighttoleft ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.item-img {
+    min-height: 150px;
+    max-height: 300px;
+    max-width: 150px;
+    max-width: 300px;
+    flex: 1 1 auto;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.item-name {
+    height: 50px;
+    font-size: 25px;
+    padding: 9px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(68, 67, 67);
+}
+
+.item-content {
+    height: 118px;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(68, 67, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.welcome, .chef{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+}
+
+.welcome div, .chef div{
+    overflow: hidden;
+    height: auto;
+    border-radius: 30px; 
+    margin: auto;
+    box-sizing: border-box;
+
+}
+.wel-right, .chef-left{
+    min-width: 280px;
+    max-width: 46%;
+    margin: auto;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    animation-name:visible ;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+}
+.wel-left, .chef-right{
+    box-shadow: 0px 0px 20px 5px gray ;
+    box-sizing: border-box;
+    min-width: 280px;
+    max-width: 48%;
+    flex: 1 1 auto;
+    
+}
+.wel-left{
+    animation-name:movelefttoright ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.chef-right{
+    animation-name:moverighttoleft ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+.wel-heading, .chf-heading {
+    margin: 50px auto 40px ;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wel-content, .chf-content {
+    margin: auto;
+    height: 200px;
+    min-height: 280px;
+    max-width: 400px;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+    box-sizing: border-box;
+}
+
+.wel-au, .chf-rm{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+    box-sizing: border-box;
+}
+
+.team{
+    margin-top: 80px;
+    width: 100%;
+    background-color: hsl(0, 14%, 95%);
+    margin-bottom: 0px;
+    min-width: 300px;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+}
+.team .p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.team .p2{
+    margin: 0px auto;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+    text-align: center;
+}
+
+.team-mates{
+    margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 30px;
+}
+
+.team-mates div{
+    min-width: 260px;
+    max-width: 20%;
+    flex: 1 1 auto;
+}
+.team-mates .tm-img{
+    margin: 10px auto;
+    min-width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 75px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 1px;
+}
+
+.team-mates .tm-name{
+    text-align: center;
+    font-size: 20px ;
+    font-weight: bold;
+    color:  rgb(70, 69, 69);
+}
+
+.team-mates .tm-post{
+    text-align: center;
+    font-size: 25px ;
+    font-weight: bold;
+    color:  rgb(70, 69, 69);
+}
+
+.team-mates .tm-content{
+    text-align: center;
+    font-size: 15px ;
+    font-weight: bold;
+    color:  rgb(70, 69, 69);
+}
+
+.bg-img-two{
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    height:fit-content;
+    background-image: url(./Layer-0-copy-3.png);
+    background-size: cover;
+    
+}
+.bg-img-three{
+    margin: auto;
+    width: 100%;
+    height: 60vh;
+    background-image: url(./brooke-lark-385490.jpg);
+    background-size: cover;   
+}
+
+.cuisine{
+    position: relative;
+    top: 100px;
+    margin: auto;
+   z-index: 1;
+    max-width: 70%;
+    min-width: 280px;
+    flex: 1 1 auto;
+    background-color: white;
+    height: auto;
+    box-shadow: 1px 1px 15px 1px ;
+    animation-name:bottomtoup ;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.cuisine .cuisine-img{
+    width: 160px;
+    height: 100px;
+    padding: 50px;
+    margin: auto;
+
+}
+.cuisine .p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cuisine .p2{
+    margin: 0px auto;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+    text-align: center;   
+}
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.starters, .mains{
+    max-width: 400px;
+    min-width: 270px;
+    flex: 1 1 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+#menu-div{
+    font-size: 40px;
+    color: orange;
+    font-family: "Lucida Handwriting"
+}
+#heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.headings-des{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(76, 75, 75);
+}
+.cuisine input{
+    margin: 10px auto;
+    margin-bottom: 50px;
+    color: orange;
+    padding: 15px;
+  font-size: 10px;
+  font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    background-color: transparent;
+    border: 1.5px solid orange;
+    border-radius: 30px;
+}
+ 
+
+
+
+.customer{
+    background-color: hsl(0, 14%, 95%);
+    width: 100%;
+    border: 2px solid hsl(0, 14%, 95%);
+    
+   
+}
+.custs-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cust1, .cust2{
+    min-width: 280px;
+    max-width: 45%;
+}
+
+.customer .p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.customer .p2{
+    margin: 0px auto;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+    text-align: center;
+
+}
+#cust-img{
+height: 200px;
+width: 200px;
+border-radius: 100px;
+margin: 100px auto 20px;
+overflow: hidden;
+
+}
+
+.cust-name{
+    margin: 0px auto 30px;
+    width: 200px;
+    font-size: xx-large;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(68, 67, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cust-rev{
+    margin: 10px auto ;
+    min-width: 280px;
+    max-width: 400px;
+    flex: 1 1 auto;
+    font-size: large;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(68, 67, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.customer .p3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin: 10px auto 40px;
+}
+
+.bg-img-four{
+    margin: auto;
+    height: 1000px;
+    width: 100%;
+    background-image: url(./brooke-lark-385504.jpeg);
+    background-size: cover;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+.order{
+    margin: 100px auto 0px;
+    max-width: 80%;
+    min-width: 280px;
+    box-shadow: 1px 1px 15px 1px ;
+    background-color: white;
+    animation-name:bottomtoup ;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.order .p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.order .p2{
+    margin: 0px auto;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(94, 93, 93);
+    text-align: center;
+}
+.booking-form{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.booking-form input{
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid orange;
+    min-width: 200px;
+    max-width: 49.5vw;
+    flex: 1 1 auto;
+    height: 60px;
+    color: orange;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.booking-form select{
+    border: none;
+    border-bottom: 1px solid orange;
+    width: 33%;
+     height: 60px; 
+     font-size: 20px;
+     color: rgb(51, 51, 50);
+     font-style: italic;
+     outline: none;
+     font-weight: bold;
+}
+input::placeholder{
+    color: rgb(51, 51, 50);
+    font-style: italic;
+
+}
+    
+.booking-form .send{
+    margin: 90px auto;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    background-color: transparent;
+    border: 1.5px solid orange;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact-map{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact{
+    min-height: 400px;
+    max-height: 800px;
+    min-width: 280px;
+    max-width: 48%;
+    flex: 1 1 auto;
+    margin: auto;
+    
+}
+.contact > .details, .address{
+    height: 300px ;
+    min-width: 270px;
+    max-width: 70%;
+    flex: 1 1 auto;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+.cnt-heading{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(81, 80, 79);
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Brush Script MT', cursive;
+}
+.timings{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+}
+.address p{
+    font-size: large;
+    font-weight: bold;
+}
+.map{
+    box-shadow: 1px 1px 10px 0px;
+    height: 700px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+iframe{
+
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    height: 200px;
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.res-name, .me, .foot-right{
+    height: 60px;
+    max-width: 33%;
+    min-width: 90px;
+    flex: 1 1 auto;
+    color: white;
+    text-align: center;
+}
+.res-name, .me{
+    padding-top: 20px;
+}
+.res-name{
+    margin-top: -40px;
+    font-size:50px;
+        padding: 0px ;
+        font-family: 'Brush Script MT', cursive;
+        box-sizing: border-box;
+}
+.foot-right{
+    display: flex;
+    justify-content:end;
+    gap: 20px;
+}
+
+@keyframes movelefttoright {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes moverighttoleft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-30px);
+    }
+    30% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes visible {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+@keyframes bottomtoup {
+ 0%{
+    transform: translateY(300px);
+ }   
+100%{
+    transform: translateY(0);
+}
+}
